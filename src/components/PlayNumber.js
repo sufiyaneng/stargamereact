@@ -7,11 +7,13 @@ export default function PlayNumber(props) {
   }
 
   return (
-    <div>
+    <>
       <button style={{ backgroundColor: colors[props.status] }} 
       className="number" 
       onClick={onNumberClick}>{props.item}</button>
-    </div>
+    </>
+      
+    
   )
 
 }
